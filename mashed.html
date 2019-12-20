@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="author" content="Caitlin Brozen" />
+<title>My Favorite Food</title>
+  
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
+
+<style type="text/css">
+  a:link {
+      color: #e6f2ff;
+  }
+  a:visited {
+      color: #99caff;
+  }
+  .maintext {
+    margin: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e6f2ff;
+    padding-left:50px;
+    padding-right:50px;
+    font-size: 20px;	
+    background-color: #333333;
+    opacity: 0.8;
+  }
+  h2 {
+    color: #66b0ff;
+  }
+  h3 {
+    color: #66b0ff;
+  }
+  </style>
+  
+  <style type="text/css">
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .topnav a {
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #3396ff;
+    color: white;
+  }
+  
+  .logo {
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  </style>
+  
+  <style type="text/css">
+  .column {
+      float: left;
+      width: 50%;
+  }
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  } 
+  </style>
+</head>
+<body>
+
+  <div class="topnav">
+    <img alt="Mashed Potato Time" longdesc="mplogo.JPG" src="logo.png" height="100" width="110" class="logo" />
+    <a class="active" href="#home">Home</a>
+      <a href="#review">Tutorials</a>
+      <a href="#media">History</a>
+      <a href="#location">Locations</a>
+  </div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://assets.bonappetit.com/photos/5bdc8976ec66ce3784f6d0f6/16:9/w_2560%2Cc_limit/make-ahead-mashed-potatoes.jpg" alt="Bon Appetit" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images-gmi-pmc.edge-generalmills.com/1156f4ec-29c8-4cd9-80db-7d4ee330b1d0.jpg" alt="General Mills" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images-gmi-pmc.edge-generalmills.com/052b41b3-fbde-48fd-8d29-211d0538ac65.jpg" alt="Pillsbury" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+<div class="maintext">
+  <h2 id="home">Why I Love Mashed Potatoes</h2>
+  <p> As I'm sure you're aware, there are infinitely many ways that 
+    one can consume a potato. </p>
+	<p>For as long as I can remember whenever anyone asked me what my favorite 
+    food was, the answer has always been Mashed Potatoes. </p>
+	<p> Not all mashed potatoes are made equally which 
+    is why it's important to use trial and error 
+  and figure out what works for you! </p>
+	<p> I personally enjoy the Idahoan Mashed Potatoes (my dad refers to them as "fake potatoes"), however 
+    you may want something different! Luckily for us, there is no wrong way to mash a potato. </p>
+</div>
+
+<div class="maintext" >
+	<h3 id="review">Tutorials</h3>
+	<p>Here is a list of some easy Mashed Potato Recipes:
+		<ul>
+			<li>
+			<a href="https://www.allrecipes.com/recipe/24771/basic-mashed-potatoes/" target="_blank">AllRecipes.com (Regular) </a></li>
+			<li>
+			<a href="https://minimalistbaker.com/the-best-damn-vegan-mashed-potatoes/" target="_blank">Minimalistbaker (Vegan)</a></li>
+			<li>
+			<a href="https://mygluten-freekitchen.com/gluten-free-dairy-free-mashed-potatoes/" target="_blank">MyGluetenFreeKitchen (Gluten Free)</a></li>
+		</ul>
+	</p>
+	<p>Helpful video tutorials:
+		
+	</p>
+	<ul>
+    <li>Bon Appetit:</li> <a href="https://www.youtube.com/watch?v=zO5qtrG_ln4"> Making Perfect Thanksgiving Ep 2</a>
+    <li>Martha Stewart:</li><a href="https://www.youtube.com/watch?v=-Ocre0kXgvg"> Snoop Dogg makes Mashed Potatoes</a>
+    <li>Epicurious:</li><a href="https://www.youtube.com/watch?v=zCDqcMAjl80"> 4 Levels of Mashed Potatoes: Amateur to Food Scientist </a>
+  </ul>
+	<p>Molly and Carla Try to Make the Perfect Mashed Potatoes & Gravy:
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/zO5qtrG_ln4" 
+	frameborder="0" allow="autoplay; encrypted-media" align="middle" allowfullscreen></iframe></p>
+  
+  <p>The secret to making the Best Mashed Potatoes: 
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/wYbJTCw50Hw" 
+	frameborder="0" allow="autoplay; encrypted-media" align="middle" allowfullscreen></iframe></p>
+	<p>&nbsp;</p>
+  
+</div>
+
+<div class="maintext">
+	<h3 id="media">History</h3>
+	<p>Why Mashed? Why Now?</p>
+
+  <p> Potatoes originated in present day Peru. 
+      Ancient cooking methods included Huatia, an oven created by clumps of dried earth, 
+      heated inside and then tossing in various tubers and other foodstuffs to "bake" inside. 
+      After introducing the foodstuffs the "oven" was flattened and cooking continued until there was 
+      evidence that the foodstuffs were done. In this case potatoes. There is no specific evidence,
+      other than rational inference, that potatoes thus cooked may have been mashed, particularly to feed infants. 
+      To this day ethnic Peruvians refer to "papa" the same name as potatoes in Quechua and Spanish,
+      as a general name for baby food <a href="https://en.wikipedia.org/wiki/Mashed_potato#History">(source)</a></p>
+
+</div>
+
+<div class="maintext" >
+	<h3 id="location">Locations</h3>
+	<p>I have found that when I am too lazy to make instant Mashed Potatoes,
+     Boston Market and Popeyes are able to step up and fill my potato void. 
+  </p>
+	
+	<div class="row">
+  		<div class="column"><a href="https://www.bostonmarket.com/">Boston Market</a><br>
+  			<iframe src="https://www.google.com/maps/d/embed?mid=13gfwy0vozPmm2xslOw77fSuUHmXChhuW&hl=en" 
+  			width="400" height="300" frameborder="1" style="border:0" allowfullscreen></iframe>
+  		</div>
+  		<div class="column"><a href="https://www.popeyes.com/">Popeyes</a><br>
+  			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1O4wfso5Votgb9dCAfj91Peu1Jc1_S7oy" 
+  			width="400" height="300" frameborder="1" style="border:0" allowfullscreen></iframe>
+  		</div>
+		&nbsp;
+	</div> 
+
+</div>
+
+
+
+
+</body>
+</html>
